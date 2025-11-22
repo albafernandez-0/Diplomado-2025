@@ -22,8 +22,7 @@ st.plotly_chart(fig)
 valor = st.number_input("Ingresa valor X para predecir:", min_value=0.0)
 pred = model.predict([[valor]])[0]
 
-st.success(f"Predicción del modelo: {pred:.2f}")
-"""
+st.success(f"Predicción del modelo: {pred:.2f}")"""
 
 with open("app.py", "w") as f:
     f.write(streamlit_app_content)
