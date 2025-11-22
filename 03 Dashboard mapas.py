@@ -19,3 +19,4 @@ fig = px.choropleth(
 )
 
 st.plotly_chart(fig)
+
